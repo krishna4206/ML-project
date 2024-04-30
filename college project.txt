@@ -23,7 +23,7 @@ Technical Specifications of IOT based Industrial fault monitoring system
 The below components are used in the IOT and Arduino based Industrial Fault detection system
 
 
-Temperature sensor
+
 LPG Sensor
 Microcontroller – Arduino
 LCD Display
