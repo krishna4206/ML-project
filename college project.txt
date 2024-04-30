@@ -1,0 +1,32 @@
+Description of the IOT based Industrial fault monitoring system Project
+
+Industries like Petroleum, Chemicals, Oil, and Gas have a high risk of fire outbreaks which could lead to huge destruction, loss of property, and most of all, loss of lives. It is very important to have a system that can keep the premises secure and also inform the authorized people within the stipulated time if such an incident takes place. IOT based Industrial fault monitoring system using Arduino project is designed to detect fire (using smoke and temperature sensor) and LPG leakage (using LPG gas sensors).
+
+This project uses IOT and sends information to a website. The Internet of Things (IoT) is basically, the network of ‘things’ by which physical things can exchange data with the help of sensors, electronics, software, and connectivity. These systems do not require any human interaction.
+
+Detailed description:
+IOT and Arduino Based Industrial fault detection system sends the signal from different sensors, i.e. Smoke, Temperature, and LPG gas sensor to the microcontroller – Arduino. The microcontroller then sends this data to the IOT module (ESP8266). ESP8266 is a chip used for connecting micro-controllers to a Wi-Fi network and making TCP/IP connections and sending data.
+
+In case a fire takes place, the smoke sensor and the temperature sensor would detect the presence of smoke and temperature changes and send the information to the Arduino.
+
+LPG sensor is used for LPG gas leakage detection. In case there is a leakage of gas, the sensor would detect it and send the signal to the Arduino, which would turn ON the buzzer and at the same time, send the same information over IOT.
+
+The microcontroller is connected to the IOT module, buzzer, and LCD Display. Arduino is programmed to turn ON the buzzer when the temperature sensor detects a temperature greater than a threshold value. This value can be programmed as needed. When the threshold value is reached, the buzzer would be turned ON. At the same time, the LCD would display informative messages.
+
+As soon as the buzzer is turned ON, the data from the microcontroller is sent to the IOT module. Since the data is available LIVE on a website, immediate action can be taken.
+
+The Prerequisite for this project is that the Wi-Fi module should be connected to a Wi-Fi zone or a hotspot.
+
+This project is also implemented without the IOT module and it is known as an Industrial fault monitoring detection system with SMS alert. In place of the IOT module, we have used the GSM module, by which an SMS is triggered.
+
+Technical Specifications of IOT based Industrial fault monitoring system
+The below components are used in the IOT and Arduino based Industrial Fault detection system
+
+Smoke sensor
+Temperature sensor
+LPG Sensor
+Microcontroller – Arduino
+LCD Display
+ESP8266
+Buzzer
+Keypad
